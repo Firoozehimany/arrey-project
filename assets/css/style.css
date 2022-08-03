@@ -37,6 +37,7 @@ a {
 
 .especial-list a {
     color: #fff;
+    transition: all 1s;
 }
 
 .especial-list h1 {
@@ -74,6 +75,8 @@ a {
     right: 0;
     z-index: 4;
     opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 .especial-list .series .info .content:hover {
